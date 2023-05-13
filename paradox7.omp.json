@@ -19,6 +19,9 @@
             "{{ if gt .Code 0 }}#f1184c{{ else }}#007800{{ end }}"
           ],
           "foreground": "#ffffff",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#000000{{ else }}#ffffff{{ end }}"
+          ],
           "properties": {
             "always_enabled": true
           },
